@@ -1,0 +1,23 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "tailwind practice",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/tailwind.css -o ./output/tailwind.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jisan-mia/tailwind.git"
+  },
+  "keywords": [],
+  "author": "Jisan Mia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jisan-mia/tailwind/issues"
+  },
+  "homepage": "https://github.com/Jisan-mia/tailwind#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
